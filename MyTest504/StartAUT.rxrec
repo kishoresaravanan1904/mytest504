@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="271186e1-9c05-456b-8bef-137eeb7e5b13"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTest504">
+	</codegen>
+	<variables>
+		<var
+		id="ffabc011-ab9d-44f4-8046-936ad09c416a"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\kisho\OneDrive\Desktop\NocSmart\Demo.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="1e1c9863-0bc3-41f7-89c2-f832ccd96aa6"
+	name="MyTest504Repository"
+	relativepath="MyTest504Repository.rxrep">
+		<codegen
+		classname="MyTest504Repository"
+		namespace="MyTest504">
+		</codegen>
+		<rootfolder
+		id="71caad93-fda6-4ba8-9db4-d899b2d6cb41"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
